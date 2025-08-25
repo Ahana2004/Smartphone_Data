@@ -202,7 +202,7 @@ with c3:
 
     fig = None
     if plot_type == "Violin":
-        fig = px.violin(df, x=x_col, y=y_col, box=True, color=x_col,  color_discrete_sequence=px.colors.qualitative.Pastel1, points="all", title=f"🎻 Violin Plot showing {x_col} against {y_col}")
+        fig = px.violin(df, x=x_col, y=y_col, box=True, color=x_col,  color_discrete_sequence=px.colors.qualitative.Dark2, points="all", title=f"🎻 Violin Plot showing {x_col} against {y_col}")
     elif plot_type == "Box":
         fig = px.box(df, x=x_col, y=y_col, color=x_col,  color_discrete_sequence=px.colors.sequential.Viridis, title=f"📦 Box Plot showing {x_col} against {y_col}")
     
