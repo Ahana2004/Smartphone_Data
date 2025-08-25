@@ -53,7 +53,7 @@ def download_csv(df: pd.DataFrame, label: str = "Download CSV", filename: str = 
 
 #--------------------------Sidebar---------------------------
 st.sidebar.header("📂 Upload Dataset")
-default_path = "C:/Users/ahana/OneDrive/Desktop/Smartphones_Dataset/smartphones_cleaned.csv .csv"
+default_path = "smartphones_cleaned.csv .csv"
 uploaded_file = st.sidebar.file_uploader("Upload your CSV file", type=["csv"])
 use_default = st.sidebar.checkbox(f"Use default dataset ({default_path})", value=True)
 
